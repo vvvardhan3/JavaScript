@@ -28,9 +28,9 @@ let courseGoals = [
   "Introduction to Vue.js",
 ];
 
-alert(courseName);
-alert(coursePrice);
-alert(courseGoals);
+// alert(courseName);
+// alert(coursePrice);
+// alert(courseGoals);
 
 let course = {
   courseName: "100 day's of Web development",
@@ -42,4 +42,16 @@ let course = {
   ],
 };
 
-alert(course.courseGoals[1])
+// alert(course.courseName);
+// alert(course.coursePrice);
+// alert(course.courseGoals);
+// alert(course.courseGoals[1]);
+
+function getListItem(array, arrayIndex) {
+  let arrayElement = array[arrayIndex];
+  return arrayElement;
+}
+
+let result = getListItem(course.courseGoals,0);
+
+alert(result);

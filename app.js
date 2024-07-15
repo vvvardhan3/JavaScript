@@ -10,8 +10,18 @@ let job = {
 let adultYears;
 
 function calculateAdultYears() {
-    return age - 18;
+  return age - 18;
 } // Function
 
-    adultYears = calculateAdultYears();
-alert(adultYears)
+adultYears = calculateAdultYears();
+// alert(adultYears)
+
+let person = {
+  name: "Vishnu Vardhan",  // Property
+  greet() {  // Method
+    console.log("Hello!"); // Built-in Method to Print in Console.
+  },
+};
+
+
+person.greet();
