@@ -1,6 +1,5 @@
-let greetingText = "Hi I'm Vishnu Vardhan Vankayalapati";
-let age = 32;
-alert(greetingText);
-greetingText = "I'm real Vishnu Vardhan Vankayalapati";
-alert(greetingText);
-alert(age);
+let name = 'Vishnu Vardhan';
+let age = 24;
+let hobbies = ['Programming','Sports','Travel'];
+
+alert(hobbies[0]);
