@@ -1,30 +1,24 @@
 const word = "abcdefd"
 const ch = "d"
 
-// console.log(word.indexOf(ch));
+let res = ""
+let remining = ""
 
-// : word.indexOf(ch)
+res = word.slice(0,word.indexOf(ch) + 1)
 
+remining = word.slice(word.indexOf(ch) + 1)
 
-
-let newString = (word.substring(0,word.indexOf(ch)+1));
-console.log(word)
-console.log(newString)
-let temp = ''
-
-for (let i = newString.length - 1; i >= 0; i-- ) {
-    temp = temp + newString[i]
-}
-
-temp = temp + 
+console.log(res.split("").reverse().join("").concat(remining));
 
 
 
 
 
-// for (const char of newString) {
-//     console.log(char)
-// }
+
+// console.log(res.split("").reverse().join(""));
+
+
+
 
 
 
