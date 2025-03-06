@@ -14,7 +14,7 @@ let age = "Vishnu"
 
 age = Number(age)
 
-console.log(age); // Nan
+// console.log(age); // Nan
 
 
 // Swiping two numbers
